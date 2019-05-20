@@ -4,7 +4,7 @@
 ## Entendedo implementação
 
 1. Injetaremos o agente do dynatrace (que faz a instrumentação **automatica**) nos modulos nativos gerados pela aplicação em react-native.
-2. Caso a instrumentação automatica não atenda todas as suas necessidades de analize, usaremos a api do pluguin do dynatrace para instrumentar nosso app de forma **manual**.
+2. Caso a instrumentação automatica não atenda todas as suas necessidades de análise, usaremos a api do pluguin do dynatrace para instrumentar nosso app de forma **manual**.
 
 ## Antes de começar
 
