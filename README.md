@@ -3,8 +3,8 @@
 
 ## Entendedo implementação
 
-1. Injetaremos o agente do dynatrace (que faz a instrumentação **automatica**) nos modulos nativos gerados pela aplicacao em react-native.
-2. Caso a instrumentação automatica nao atenda todas as suas necessidades de analize, usaremos a api do pluguin do dynatrace para instrumentar nosso app de forma **manual**.
+1. Injetaremos o agente do dynatrace (que faz a instrumentação **automatica**) nos modulos nativos gerados pela aplicação em react-native.
+2. Caso a instrumentação automatica não atenda todas as suas necessidades de analize, usaremos a api do pluguin do dynatrace para instrumentar nosso app de forma **manual**.
 
 ## Antes de começar
 
@@ -149,6 +149,6 @@ Quando editar o arquivo `Info.plist`, pode ser uma boa idéia setar as seguintes
 * `DTXLogLevel` para `ALL` (note que isso somente sera aplicado para non-production apps - você deve usar opcoes menos verbosas para aplicativos em producao).
 * `DTXSendEmptyAutoAction` para `YES`
 
-Copie os arquivos `Dynatrace.js` e `dynafetch.js` para o seu projeto se você nao fez isso ainda.
+Copie os arquivos `Dynatrace.js` e `dynafetch.js` para o seu projeto se você não fez isso ainda.
 
 Continue com o tutorial de *Modificar arquivos no React Native - Javascript* descrito acima.
