@@ -121,7 +121,7 @@ componentDidMount() {
 
 
 
-## For iOS
+## Para o iOS
 
 ### Intrumentacao **Automatica**
 
